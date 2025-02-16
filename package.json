@@ -2,11 +2,15 @@
   "name": "barbell_calculator",
   "version": "1.0.0",
   "main": "barbell_script.js",
-  "scripts": {
-    "test": "npm",
-    "build": "parcel build index.html"
-  },
+ "scripts": {
+  "dev": "vite",
+  "test": "npm",
+  "build": "parcel build index.html"
+},
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
 }
