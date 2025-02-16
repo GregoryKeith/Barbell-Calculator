@@ -1,0 +1,12 @@
+{
+  "name": "barbell_calculator",
+  "version": "1.0.0",
+  "main": "barbell_script.js",
+  "scripts": {
+    "test": "npm",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

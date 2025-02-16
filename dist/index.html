@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbell Calculator</title>
+    <script src="barbell_script.js" defer></script>
+    <link rel="stylesheet" href="barbell_style.css">
+</head>
+<body>
+    <h1>Barbell Calculator</h1>
+    <p>How much weight would you like to lift?</p>
+    <input class="userInput" type="number" placeholder="Enter weight">
+    <br>
+    <button id='calculateBtn'>This Much!</button>
+    <ul id="plateList">
+        <li>45 lb plates: <span id="fortyFive"></span></li>
+        <li>35 lb plates: <span id="thirtyFive"></span></li>
+        <li>25 lb plates: <span id="twentyFive"></span></li>
+        <li>10 lb plates: <span id="ten"></span></li>
+        <li>5 lb plates: <span id="five"></span></li>
+        <li>2.5 lb plates: <span id="twoAndAHalf"></span></li>
+    </ul>
+    <br>
+    <h1>
+        Warmup Calculator
+    </h1>
+    <ul id="warmpuPlateList"></ul>
+        <li>45 lb plates: <span id="warmUpfortyFive"></span></li>
+        <li>35 lb plates: <span id="warmUpthirtyFive"></span></li>
+        <li>25 lb plates: <span id="warmUptwentyFive"></span></li>
+        <li>10 lb plates: <span id="warmUpten"></span></li>
+        <li>5 lb plates: <span id="warmUpfive"></span></li>
+        <li>2.5 lb plates: <span id="warmUptwoAndAHalf"></span></li>
+    </ul>
+    <br>
+    <button id="resetBtn">Reset</button>
+    <div id="result"></div> <!-- Area for displaying messages -->
+</body>
+</html>

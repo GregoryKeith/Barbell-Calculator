@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d7787;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Styling for the input field */
+input.userInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the button */
+
+
+
+ul#plateList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#plateList li {
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6f61; /* Your chosen background color */
+    color: #ffffff; /* White text for high contrast */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2e5b63; /* Darker teal for hover effect */
+    transform: scale(1.05); /* Slightly grow on hover */
+}
